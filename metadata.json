@@ -1,0 +1,6 @@
+{
+  "name": "Adamu Suya | Luxury Nigerian Suya & Grill House",
+  "description": "Refined Nigerian suya dining and artisanal kraft-box takeaway. Flame-grilled prime cuts, heritage Sahel spices, and authentic Lagos culinary luxury.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

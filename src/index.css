@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-forest: #12251B;
+  --color-forest-dark: #0B1710;
+  --color-ivory: #F5F0E6;
+  --color-ivory-light: #FAF7F0;
+  --color-kraft: #C9AD7A;
+  --color-kraft-light: #DFC89D;
+  --color-brown: #39271D;
+  --color-brown-muted: #5C4334;
+  --color-gold: #B58A45;
+  --color-gold-light: #D4A860;
+  --color-burgundy: #7B2427;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-ivory);
+    color: var(--color-brown);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Subtle vintage newspaper paper feel */
+.vintage-newsprint-border {
+  border-style: solid;
+  border-color: rgba(57, 39, 29, 0.15);
+}
+
+.hairline-divider {
+  height: 1px;
+  background-color: rgba(57, 39, 29, 0.12);
+}
+
+.hairline-divider-light {
+  height: 1px;
+  background-color: rgba(245, 240, 230, 0.12);
+}
+
+/* Custom scrollbar for cart and drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(57, 39, 29, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(181, 138, 69, 0.4);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(181, 138, 69, 0.7);
+}
